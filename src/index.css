@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@font-face {
+  font-family: "mundo";
+  src: url("./fonts/Quicksand-VariableFont_wght.ttf") format("truetype");
+  /* Ajusta la ruta al archivo de tu fuente */
+}
+* {
+  font-family: "mundo";
+}
